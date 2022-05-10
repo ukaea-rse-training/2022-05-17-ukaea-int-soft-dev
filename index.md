@@ -4,19 +4,19 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "UKAEA"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Culham Science Centre, LRDC, E3"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "GB"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: 0        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: 0       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Jan 25-26 and Feb 1-2, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "12:45 pm - 4:30 pm (UTC+0)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2022-01-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2022-02-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Matthew Bluteau"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Kristian Zarebski", "Sam Mason", "John Nonweiler"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+humandate: "17, 19, 24, 25, 31 May 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "13:00 - 16:30 (UTC+1)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+startdate: 2022-05-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2022-05-31        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Matthew Bluteau", "Kristian Zarebski", "Sam Mason"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Matthew Bluteau", "Kristian Zarebski", "Sam Mason"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["matthew.bluteau@ukaea.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: "https://codimd.carpentries.org/VSjpZqwHReqCsK_gHjGNHQ?both" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: "https://codimd.carpentries.org/ukaea-int-soft-dev-20220517#" # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -340,23 +340,38 @@ to obtain the software and data you will need to follow the lesson.
 {: .callout}
 
 >## A note about IDEs
-> 
-> The course recommends and provides instructions for using PyCharm as an
-> Integrated Development Environment (IDE). However, because this is an
+>
+> There are two Integrated Development Environments (IDEs) that are supported
+> for this course, and we recommend use one of them:
+>
+> 1. JetBrains' PyCharm: this is the one recommended in the course setup pages,
+>    and it is the IDE used throughout the examples in the course content. All
+>    figures and instructions relate to it.
+> 2. Microsoft's VSCode: a widely used IDE and likely the most popular at UKAEA.
+>    Instructions for getting set up with it have recently been added to the
+>    ["Extras" of the
+>    course](https://ukaea-rse-training.github.io/python-intermediate-development/vscode/index.html).
+>    As you go through the course and features of PyCharm are being explained,
+>    you can used that document to get the analogous features in VSCode. This
+>    will of course require switching between between webpages, so the
+>    experience will not be as seamless. A better UX is in our long term plans.
+>
+> However, because this is an
 > intermediate-level course, we expect that a number of participants will already
 > have some experience using an IDE or comparable advanced code editor (e.g. Vim,
-> Emacs). You are welcome to use your editor of choice for the course if you are
+> Emacs). Therefore, you are welcome to use your editor of choice for the course if you are
 > confident that you can achieve similar functionality that is described for
-> PyCharm, but be warned that we are unlikely to be able to support you if
-> something goes wrong. At least two of the instructors/helpers use VSCode, so we
-> will be able to support you if you choose that IDE. Regardless of your decision,
-> we recommend that you still install PyCharm as a fallback. What your IDE setup
-> needs to achieve:
-> 
+> PyCharm:
+>
 > - Syntax highlighting, indentation, and autocompletion
 > - Recognition of virtual environments and setting the correct Python interpreter
 > - Running the Python debugger from the IDE and setting breakpoints at specific lines
-> - Integration with pytest and the ability to launch individual tests from the editor
+> - Integration with pytest and the ability to launch individual tests from the
+>   editor
+>
+> Also, you must accept the provision that we will only support the two IDEs
+> above. Regardless of your decision, we recommend that you still install one of
+> the editors above as a fallback.
 {: .callout}
 
 {% endif %}

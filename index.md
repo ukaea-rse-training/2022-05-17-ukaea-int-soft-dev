@@ -7,8 +7,8 @@ venue: "UKAEA"        # brief name of the institution that hosts the workshop wi
 address: "Culham Science Centre, E3, LRDC, Training Room"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "GB"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: 0        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: 0       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: 51.657094        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: -1.229996       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "17, 19, 24, 25, 31 May 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "13:00 - 16:30 (UTC+1)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-05-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01

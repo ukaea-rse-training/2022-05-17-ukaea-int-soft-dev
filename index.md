@@ -320,7 +320,15 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "incubator" %}
 First off, please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
+to obtain the software and data you will need to follow the lesson. We recommend
+that you use your work laptop for the course and run the software required
+directly on that. We appreciate that some participants will work on Linux
+clusters on a regular basis (e.g. freia, heimdall, cumulus) and will therefore
+want to do the course work from there. Whilst this is possible, the overhead to
+get this working for everyone has proven to be too much in the short time
+allotted for the course. If you are already set up on one of these clusters with
+a functioning IDE connected remotely, then please do feel free to use that, but
+be aware our support for you will be limited.
 
 >## Some notes for UKAEA Windows users
 > 
